@@ -16,8 +16,9 @@
           "js": ["cards.js"]
         }
       ],
-    "permissions": ["activeTab", "tabs"],
+    "permissions": ["activeTab", "tabs", "scripting"],
     "action": {
+        "default_popup": "popup.html",
         "default_icon": {
             "16": "/images/cards16.png",
             "32": "/images/cards32.png",

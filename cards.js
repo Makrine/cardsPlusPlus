@@ -70,8 +70,7 @@ function readMarketXML(xhttpResponse) {
     var type = xmlFile.getElementsByTagName("TYPE");
     var price = xmlFile.getElementsByTagName("PRICE");
     
-    var flagMV = false; // flagMV = true when bid > MV
-    var len = type.length - 1;
+    var len = type.length;
     for(var i = 0; i < len; i++) {
         var p = price[i].innerHTML; 
         if(type[i].innerHTML == "bid") {
@@ -82,7 +81,6 @@ function readMarketXML(xhttpResponse) {
 
     var minAsk = 0;
     var maxBid = 0;
-
     if(cardBids.length) {
         maxBid = parseFloat(cardBids[0]);
         for(var i = 1; i < cardBids.length; i++) {
