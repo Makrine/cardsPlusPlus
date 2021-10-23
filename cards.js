@@ -71,7 +71,7 @@ function readMarketXML(xhttpResponse) {
     var price = xmlFile.getElementsByTagName("PRICE");
     
     var flagMV = false; // flagMV = true when bid > MV
-    var len = type.length - 1;
+    var len = type.length;
     for(var i = 0; i < len; i++) {
         var p = price[i].innerHTML; 
         if(type[i].innerHTML == "bid") {
