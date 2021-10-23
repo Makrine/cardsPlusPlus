@@ -16,7 +16,7 @@
           "js": ["cards.js"]
         }
       ],
-    "permissions": ["activeTab", "tabs", "scripting"],
+    "permissions": ["activeTab", "scripting"],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
