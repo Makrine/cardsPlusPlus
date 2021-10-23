@@ -11,6 +11,10 @@ Cards++ is a Google Chrome extension which checks the card market info and displ
  
  # How to use Cards++?
  
+ ## wait till it gets published on Web Store! (very soon!)
+ 
+ OR:
+ 
  * Download from "code" or clone the repository. 
  
  * Unzip if you downloaded.
