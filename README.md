@@ -30,6 +30,6 @@ Cards++ is a Google Chrome extension which checks the card market info and displ
  * You're ready to go!  
 
 
-# Like the extention or any suggestions?
+# Like the extension or any suggestions?
 
 Drop a telegram to [Mackiland!](https://nationstates.net/nation=mackiland)
