@@ -36,4 +36,4 @@ Drop a telegram to [Mackiland!](https://nationstates.net/nation=mackiland)
 
 # License
 
-NS Cards is licensed under the [Apache License 2.0.](http://www.apache.org/licenses/LICENSE-2.0)
+Cards++ is licensed under the [Apache License 2.0.](http://www.apache.org/licenses/LICENSE-2.0)
