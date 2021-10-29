@@ -125,9 +125,37 @@ function displayData() {
     var bid = cardData[1];
     var mv = cardData[2];
 
-    var dataToAppend =
+//     var dataToAppend =
 
-    `<div class="info" style="
+//     `<div class="info" style="
+//     z-index: 1;
+//     position: absolute;
+//     color: red;
+//     margin-top: 60%;
+//     letter-spacing: 0;
+//     text-align: left;
+//     font-size: 12px;
+// ">
+//     <div class="bid" style="
+//     float: left;
+// ">
+//     BID: ${bid}
+//     </div>
+//     <div class="ask" style="
+// ">
+//     ASK: ${ask}
+//     </div>
+    
+//     <div class="mv">
+//     MV: ${mv}
+//     </div>`
+               
+    // main div
+    var appendInfo = document.createElement('div');
+
+    appendInfo.setAttribute("class", "info");
+    appendInfo.setAttribute("style", `
+
     z-index: 1;
     position: absolute;
     color: red;
@@ -135,26 +163,39 @@ function displayData() {
     letter-spacing: 0;
     text-align: left;
     font-size: 12px;
-">
-    <div class="bid" style="
-    float: left;
-">
-    BID: ${bid}
-    </div>
-    <div class="ask" style="
-">
-    ASK: ${ask}
-    </div>
     
-    <div class="mv">
-    MV: ${mv}
-    </div>`
+   `);
 
     
+    
+    //BID
+    var displayBid = document.createElement('div');
+
+    displayBid.setAttribute("class", "bid");
+    displayBid.setAttribute("style", "float: left;");
+    displayBid.appendChild(document.createTextNode(`BID: ${bid}`));
+
+
+    //ASK
+    var displayAsk = document.createElement('div');
+    displayAsk.setAttribute("class", "ask")
+    displayAsk.appendChild(document.createTextNode(`ASK: ${ask}`));
+
+    //MV
+    var displayMV = document.createElement('div');
+    displayMV.setAttribute("class", "mv")
+    displayMV.appendChild(document.createTextNode(`MV: ${mv}`));
+
+
+    appendInfo.appendChild(displayBid);
+    appendInfo.appendChild(displayAsk);
+    appendInfo.appendChild(displayMV);
+
+
 
     var parent = document.getElementsByClassName("deckcard-category");
     if(!(parent[requestsNum-1] === undefined))
-        parent[requestsNum-1].innerHTML += dataToAppend;
+        parent[requestsNum-1].appendChild(appendInfo);
 }
 
 function getAndDisplayInfo() {
