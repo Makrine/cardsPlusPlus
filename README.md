@@ -9,25 +9,9 @@ Cards++ is a Google Chrome extension which checks the card market info and displ
  
  If there is no bid or ask, then it displays 0.
  
- # How to use Cards++?
+ # Where to get Cards++?
  
- ## wait till it gets published on Web Store! (very soon!)
- 
- OR:
- 
- * Download from "code" or clone the repository. 
- 
- * Unzip if you downloaded.
- 
- * Open Google Chrome and go to extentions --> type `chrome://extensions` in the address bar
- 
- * On the top right corner turn on `Developer mode`
- 
- * Click on `Load Unpacked` and select the folder
- 
- * Right next to the address bar you will see a puzzle like icon. Click on it and pin the cards exstension.
- 
- * You're ready to go!  
+ [Grab it here!](https://chrome.google.com/webstore/detail/cards%20%20/dkjdnhehpfcdbnhmchabnlomoeooikha?hl=en&authuser=0)
 
 
 # Like the extension or any suggestions?
