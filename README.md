@@ -17,7 +17,7 @@ Cards++ is an extension which checks the card market info and displays it on the
 
 ## Firefox
 
-soon!
+[Grab it here!](https://addons.mozilla.org/en-US/firefox/addon/cards/)
 
 # Like the extension or any suggestions?
 
